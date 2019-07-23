@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Like any other child, flying has always been my passion and still is. The curiosity and understanding in later part of life made me realize there are bigger things to feed the inquisitive mind. Research engineer with expertise on Augmented/Virtual Reality application development and Computer Vision. I love STEM and 
 
 You can find the source code for Minima at GitHub:
 [jekyll][jekyll-organization] /
