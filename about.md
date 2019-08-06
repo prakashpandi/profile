@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Like any other child, flying has always been my passion and still is. The curiosity and understanding in later part of life made me realize there are bigger things to feed the inquisitive mind. Research engineer with expertise on Augmented/Virtual Reality application development and Computer Vision. I love STEM and 
+Like any other child, flying has always been my passion and still is. The curiosity and understanding in later part of life made me realize there are bigger things to feed the inquisitive mind. 
 
 You can find the source code for Minima at GitHub:
 [jekyll][jekyll-organization] /

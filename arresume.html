@@ -1,14 +1,90 @@
 <!doctype HTML>
 <html>
-  <script src="https://aframe.io/releases/0.9.1/aframe.min.js"></script>
-  <script src="https://raw.githack.com/jeromeetienne/AR.js/1.7.1/aframe/build/aframe-ar.js"></script>
-  <body style='margin : 0px; overflow: hidden;'>
-    <a-scene arjs='detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
-  	<a-marker type='barcode' value='5'>
-        <!-- Using the asset management system. -->
-        <a-obj-model rotation='-90 0 0' src="Models/prakash_avatar.obj" mtl="Models/prakash_avatar.mtl"></a-obj-model>
-  	</a-marker>
-  	<a-entity camera></a-entity>
-    </a-scene>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link href="https://fonts.googleapis.com/css?family=Beth+Ellen&display=swap" rel="stylesheet"> 
+    <title>Prakash in AR</title>
+    <style>
+      body{
+        margin:0;
+        font-family: 'Beth Ellen', cursive;
+      }
+      .container{
+        display: flex;
+      }
+      .left,.right{
+        min-height: 100vh
+        
+      }
+      .left{
+        text-align: center;
+        width: 50vw;
+        
+      }
+      .texthighlight{
+        
+        font-size: 24px;
+        text-shadow: 4px 3px 5px rgb(255, 250, 0,0.3);
+        
+        
+        /*font-size: 24px;
+        text-shadow: 4px 3px 5px orange;
+        background-image: linear-gradient(to left ,yellow,green);
+        background-clip: text;
+        color: transparent;
+        */
+      }
+      .right{
+        width: 50vw;
+      }
+      .object,.object *{
+        width: 100%;
+        height: 100vh
+      }
+      @media only screen and (max-width: 700px) {
+        .container{
+          flex-direction: column;  
+        }
+        .left,.right{
+          width: 100vw;
+          min-height: unset;
+        }
+        .left{
+          order:2;
+        }
+        .right{
+          order:1;
+          
+          height: 70vh;
+        }
+        .object,.object *{
+          width: 100%;
+          height: 70vh
+        }
+      }
+    </style>
+  </head>
+  <body>
+      <div class="container">
+        <div class="left">
+          
+          <div class="texthighlight">
+              Hey, there! 
+          </div>
+
+          
+        </div>
+        <div class="right">
+            <div class="object">
+                <model-viewer ar camera-controls autoplay src="prakash_full_body_avatar.glb" background-color="#455A64" alt="Prakash"></model-viewer>
+            </div>
+        </div>
+      </div>
   </body>
+    <!-- Loads <model-viewer> for modern browsers: -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+    <!-- Loads <model-viewer> for old browsers like IE11: -->
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
 </html>

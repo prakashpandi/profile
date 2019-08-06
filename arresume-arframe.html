@@ -1,0 +1,23 @@
+<!doctype HTML>
+<html>
+  <!-- Loads <model-viewer> for modern browsers: -->
+  <script type="module"
+  src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
+  </script>
+  <!-- Loads <model-viewer> for old browsers like IE11: -->
+  <script nomodule
+  src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
+  </script>
+  <script src="https://aframe.io/releases/0.9.1/aframe.min.js"></script>
+  <script src="https://raw.githack.com/jeromeetienne/AR.js/1.7.1/aframe/build/aframe-ar.js"></script>
+  <body style='margin : 0px; overflow: hidden;'>
+    <a-scene arjs='detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
+  	<a-marker type='barcode' value='5'>
+        <!-- Using the asset management system. -->
+        <a-obj-model rotation='-90 0 0' src="Models/prakash_avatar.obj" mtl="Models/prakash_avatar.mtl"></a-obj-model>
+        
+  	</a-marker>
+  	<a-entity camera></a-entity>
+    </a-scene>
+  </body>
+</html>
