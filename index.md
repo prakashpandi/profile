@@ -7,9 +7,9 @@ profile:
 published: true
 ---
 
-I am an aspiring research software engineer, passionate about technology's potential to tackle societal challenges. My journey into the realm of computing, particularly within artificial intelligence, began with a foundation in engineering from my Diploma in Electrical and Electronics Engineering to my Bachelor's degree in Electronics and Communication Engineering. Throughout my career, including roles at `Infosys` and `Siemens Healthineers`, I've actively contributed to development initiatives.
+I am an aspiring research engineer, passionate about technology's potential to tackle societal challenges. My journey into the realm of visual computing, particularly within Extended Reality (XR), began with a strong foundation in engineering from my Diploma in Electrical and Electronics Engineering to my Bachelor's degree in Electronics and Communication Engineering. Throughout my career, including roles at `Infosys` and `Siemens Healthineers`, I've actively contributed to XR development initiatives.
 
-Pursuing a `Master's degree in Visual Computing` at Otto von Guericke University Magdeburg, driven by my passion for innovations in varied fields - `AI`, `Computer Vision`, `Computer Graphics`, and `Robotics`, with the goal of transitioning from a software developer to a research engineer.
+Pursuing a `Master's degree in Visual Computing` at Otto von Guericke University Magdeburg, driven by my passion for innovations in `AI`, `Computer Vision`, `Computer Graphics`, and `Robotics`, with the goal of transitioning from a software developer to a research engineer.
 
 ### Also, check out:
 
